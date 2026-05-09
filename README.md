@@ -1,4 +1,5 @@
 # 🎨 VAE from Scratch — A Variational Autoencoder for Image Generation in PyTorch
+
 ### FashionMNIST 28×28 이미지 생성을 학습하는, PyTorch로 직접 구현한 Variational Autoencoder
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)
