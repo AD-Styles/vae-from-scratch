@@ -19,7 +19,7 @@
 ## 📂 프로젝트 구조 (Project Structure)
 
 ```
-29. vae-from-scratch/
+vae-from-scratch/
 ├── results/
 │   ├── 01_dataset_overview.png            # FashionMNIST 10개 클래스 + 분포 + 통계
 │   ├── 02_training_curve.png              # Total / Recon / KL 3-panel + Best Epoch 마커
@@ -71,7 +71,7 @@
 │  Reparameterization Trick                     │
 │   σ = exp(0.5 · log σ²)                       │
 │   ε ~ N(0, I)                                 │
-│   z = μ + σ ⊙ ε   (16-dim)                    │
+│   z = μ + σ ⊙ ε   (16-dim)                   │
 └───────────────────────────────────────────────┘
    ↓
 ┌───────────────────────────────────────────────┐
