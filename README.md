@@ -45,7 +45,6 @@ vae-from-scratch/
 |------|-----------|
 | **잠재 변수 모델 (Latent Variable Model)** | 입력 데이터를 저차원 잠재 변수 z로 압축해서 표현 |
 | **인코더 (Encoder / Inference Network)** | 입력 x를 잠재 분포 q(z\|x)의 파라미터 μ, log σ²로 변환 |
-| **재매개변수화 트릭 (Reparameterization Trick)** | z = μ + σ ⊙ ε — 샘플링 단계에 gradient가 흐르게 만드는 핵심 기법 |
 | **디코더 (Decoder / Generative Network)** | 잠재 변수 z로부터 이미지 x를 복원 |
 | **재구성 손실 (Reconstruction Loss)** | BCE — 입력과 복원 이미지 사이의 픽셀별 cross-entropy |
 | **KL 발산 (KL Divergence)** | 학습된 잠재 분포가 표준정규 N(0, I)에서 얼마나 멀어졌는지 측정 |
